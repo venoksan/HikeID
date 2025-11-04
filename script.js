@@ -1,4 +1,3 @@
-
 var map = L.map('map').setView([1.3, 124.8], 10);
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -48,4 +47,5 @@ fetch('data_gunung-MDT.geojson')
                 layer.bindPopup(popupContent);
             }
         }).addTo(map);
+
     });
